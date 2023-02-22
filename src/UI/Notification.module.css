@@ -1,0 +1,21 @@
+.notification{
+    width: 100%;
+    height: 3em;
+    background:#d14f4f70;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5em 10%;
+    color: #fff;
+}
+.notification>span{
+    font-size: 2.2rem;
+    letter-spacing: 0.02em;
+}
+
+.error{
+    background: #f05f5fd2;
+}
+.success{
+    background: #5ad35ae8;
+}
