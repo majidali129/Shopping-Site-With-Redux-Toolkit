@@ -1,0 +1,15 @@
+.cartContainer{
+    background: #fff;
+    width: 50%;
+    padding: 0.8em 4em;
+    margin:1em auto 1em auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px gray;
+}
+.cartItemWrapper{
+    display: flex;
+    flex-direction: column; 
+    gap: 15px;
+    align-items: center; 
+}
+

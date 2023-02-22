@@ -1,0 +1,47 @@
+
+.listWrapper{
+    width: 100%;
+}
+.itemList{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:2px;
+    padding: 1em 2em;
+    margin: auto;
+    background: #125252;
+    border-radius: 5px;
+    /* border: 1px solid red; */
+}
+
+.itemDetails{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffffc2;
+}
+
+.itemName{
+    font-size: 2rem;
+    color: #fff;
+}
+.itemPrice{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.itemQuantity{
+    font-size: 1.8rem;
+    color: #fff;
+}
+.addToCartBtn{
+    padding: 0.5em 2em;
+    width: fit-content;
+    text-align: center;
+    background:green;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    color: #ffffffd3;
+    cursor: pointer;
+}

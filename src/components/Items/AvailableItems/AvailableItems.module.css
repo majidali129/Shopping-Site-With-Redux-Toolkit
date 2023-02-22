@@ -1,0 +1,14 @@
+.availableItems{
+    background: #fff;
+    width: 50%;
+    padding: 0.8em 4em;
+    margin:1em auto 1em auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px gray;
+}
+.items_wrapper{
+    display: flex;
+    flex-direction: column; 
+    gap: 8px;
+    align-items: center; 
+}
